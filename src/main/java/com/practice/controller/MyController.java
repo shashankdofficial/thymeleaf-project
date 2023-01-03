@@ -58,4 +58,17 @@ public class MyController {
 		m.addAttribute("subtitle", LocalDateTime.now().toString());
 		return "service";
 	}
+	
+	//for new About
+	@GetMapping("/newabout")
+	public String newAbout() {
+		return "aboutnew";
+	}
+	
+	//contact
+	@GetMapping("/contact")
+	public String contact() {
+		return "contact";
+	}
+	
 }

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Footer Template</title>
+</head>
+<body>
+	<footer id="fragmenttag" th:fragment="footer1(title,subtitle)">
+		<div class="container">
+			
+			<h1 th:text="${title}"></h1>
+			<h2 th:text="${subtitle}"></h2>
+			<h2>Provide good content about Programming</h2>
+			<h1>feel free to contact and work with me.</h1>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sed numquam doloremque mollitia provident officia perferendis amet. Non quasi consequuntur atque nam doloremque voluptatum labore quia eveniet ad delectus omnis sit amet quibusdam quaerat fuga maxime nesciunt in iste neque ducimus quae magnam blanditiis repellendus alias laudantium et corporis. Impedit!</p>
+			
+		</div>
+	</footer>
+</body>
+</html>
